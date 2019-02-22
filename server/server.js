@@ -49,7 +49,7 @@ app.get('/todos/:id', (req, res) => {
   });
 });
 
-app.listen(poer, () => {
+app.listen(port, () => {
   console.log(`Started on port ${port}`);
 });
 
